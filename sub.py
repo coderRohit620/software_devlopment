@@ -1,4 +1,4 @@
-class calculator:
+class Subtraction:
     def sub_number(a,b):
         return a-b
     
