@@ -1,12 +1,12 @@
 from add import Add
-from Div import Division
+from div import Division
 from mul import Multiply
 from sub import Subtract
 
 class Calculator:
     def compute(self, choice, a, b):
         if choice == "1":
-            return Divide(a, b).calculate()
+            return Division(a, b).calculate()
         elif choice == "2":
             return Multiply(a, b).calculate()
         elif choice == "3":

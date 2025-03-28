@@ -1,9 +1,10 @@
+# div.py
 class Division:
-    def div_numbers(a, b):
-        return a // b
-
-    num1 = int(input("Enter first number: "))
-    num2 = int(input("Enter second number: "))
-
-    div_result = div_numbers(num1, num2)
-    print("Sum:", div_result)
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+    
+    def calculate(self):
+        if self.b == 0:
+            return "Error: Division by zero"
+        return self.a / self.b

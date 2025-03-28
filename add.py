@@ -1,9 +1,8 @@
-class Addition:
-    def add_numbers(a, b):
-        return a + b
-
-    num1 = int(input("Enter first number: "))
-    num2 = int(input("Enter second number: "))
-
-    sum_result = add_numbers(num1, num2)
-    print("Sum:", sum_result)
+# add.py
+class Add:
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+    
+    def calculate(self):
+        return self.a + self.b
