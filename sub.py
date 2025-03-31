@@ -1,5 +1,3 @@
-# Substraction.py
-# This program performs subtraction of two numbers
 
 class Subtract:
     def __init__(self, a, b):
